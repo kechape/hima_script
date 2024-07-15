@@ -5,6 +5,4 @@ x = 99;
 y = 234;
 
 
-document.getElementById("bn").innerHTML = x + y;
-
-
+alert(x + y);
