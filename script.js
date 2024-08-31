@@ -8,8 +8,8 @@ setInterval(function(){
  if(x > 10000000){ 
  document.getElementById("comennt").innerHTML ="これだけの数をたたき出すなんて....まったく";
  }
- if(x < 10000001){ 
- document.getElementById("comennt").innerHTML ="";
+ if(x < 10000000){ 
+ document.getElementById("comennt").innerHTML ="合掌";
  }
 },1);
 
