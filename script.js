@@ -1,8 +1,9 @@
 setInterval(function(){
 document.getElementById("t1").innerHTML = new Date().toLocaleString();
 },500);
-x = 99;
-y = 234;
+setInterval(function(){
+document.getElementById("num").innerHTML = x;
+},1);
 
+let x = 0;
 
-alert(x + y);
