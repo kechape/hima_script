@@ -7,9 +7,8 @@ document.getElementById("num").innerHTML = x;
 setInterval(function(){
  if(x > 10000000){ 
  document.getElementById("comennt").innerHTML ="これだけの数をたたき出すなんて....まったく";
- }
- if(x < 10000000){ 
- document.getElementById("comennt").innerHTML ="合掌";
+ } else{
+ document.getElementById("comennt").innerHTML ="限界まで押してみな";
  }
 },1);
 
